@@ -1,0 +1,15 @@
+ACTIVIDAD GIT
+La siguiente actividad es para establecer nivel de conocimiento acerca del manejo del sistema de control de versiones Git y el uso de GitHub, aplicando en la construcción de un proyecto de maquetación.
+Detalles:
+1. Se conformarán equipos de 3 personas, estos serán escogidos por la docente (prohibido realizarlo individual, ya que la finalidad s desarrollar un trabajo colaborativo).
+2. Desarrollar una aplicación web teniendo en cuenta conocimientos previos adquiridos en otros submodulos. Solo maquetación y sin funcionalidad. (que tenga 3 vistas independientes, el tema es decisión de cada equipo):
+a. Vista de contacto.
+b. Vista de servicios
+c. Vista de información general.
+3. Aplicar CSS, semántica HTML.
+4. Antes de construir la maquetación definir el repositorio (directorio del proyecto) vacío.
+5. Averiguar como realizar un pull request y aplicarlo en el proyecto. Cada integrante se encarga de una vista diferente.
+6. Y el líder o dueño del proyecto debe tomar pantallazos a todos los pull request que reciba.
+7. Trabajar en ramas diferentes a la master.
+8. Realizar mínimo 4 commits por vista.
+Anexo: la docente proporcionará información de apoyo para la realización del trabajo colaborativo y el buen uso de las herramientas vistas en clase.

@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img\apuesta.png">
+    <title>Apuestas Deportivas XM</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body background="img\Apuestas.avif">
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class=" container-fluid">
+            <a class="navbar-brand" href="#">Apuestas XM</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Servicios"><i class="bi bi-cash-coin"></i>
+                            Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Contacto"><i class="bi bi-chat-text"></i>
+                            Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#Informacion"><i class="bi bi-people"></i>
+                            Sobre nosotros</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Deportes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://apuestas.wplay.co/es/s/FOOT/F%C3%BAtbol"><i
+                                        class="bi bi-suit-club-fill"></i> Fútbol</a></li>
+                            <li><a class="dropdown-item" href="https://apuestas.wplay.co/es/s/BASK/Baloncesto"><i
+                                        class="bi bi-suit-diamond-fill"></i> Baloncesto</a></li>
+                            <li><a class="dropdown-item" href="https://apuestas.wplay.co/es/s/TENN/Tenis"><i
+                                        class="bi bi-suit-spade-fill"></i> Tenis</a></li>
+                            <li><a class="dropdown-item" href="https://apuestas.wplay.co/es/s/BASE/B%C3%A9isbol"><i
+                                        class="bi bi-suit-heart-fill"></i> Béisbol</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div>
+                    <form class="d-flex" role="search">
+                        <a class="btn btn-outline-success" type="submit" href="#Sesion">Iniciar Sesion</a>
+                    </form>
+                </div>
+                <div>
+                    <form class="d-flex" role="search">
+                        <a class="btn btn-outline-success" type="submit" href="#Registro">¡REGISTRARSE!</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="Servicios">
+        <h1 style="color: azure;">Nuestros servicios</h1>
+        <ul>
+            <li id="servi"><a class="nav-link active" aria-current="page" href="https://apuestas.wplay.co/es">Apuestas
+                    deportivas</li></a>
+            <p>Permitir a los usuarios apostar en una amplia gama de eventos deportivos, incluyendo fútbol, baloncesto,
+                tenis, carreras de caballos, y más.</p>
+            <li id="servi"><a class="nav-link active" aria-current="page"
+                    href="https://apuestas.wplay.co/es/overview">Apuestas en vivo</li></a>
+            <p>Ofrecer la posibilidad de realizar apuestas mientras los eventos deportivos están en curso, lo que
+                permite a los usuarios participar en tiempo real.</p>
+            <li id="servi"><a class="nav-link active" aria-current="page" href="https://www.wplay.co/slots">Apuestas en
+                    eventos especiales</li></a>
+            <p>Ofrecer oportunidades de apuesta en eventos especiales, como premios de la academia, elecciones
+                políticas, reality shows, entre otros.</p>
+            <li id="servi"><a class="nav-link active" aria-current="page"
+                    href="https://www.wplay.co/casino-en-vivo">Casino en línea</li></a>
+            <p>Proporcionar una variedad de juegos de casino en línea, como tragamonedas, póquer, ruleta, blackjack, y
+                otros juegos de mesa populares.</p>
+        </ul>
+    </section>
+
+    <section id="Contacto">
+        <h1 style="color: azure;">Contacto</h1>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationCustom01" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationCustom02" required>
+            </div>
+            <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Correo</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                    <input type="text" class="form-control" id="validationCustomUsername"
+                        aria-describedby="inputGroupPrepend" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                        Aceptar términos y condiciones
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-outline-success" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section><br>
+    <section id="Informacion">
+        <h1 style="color: azure;">Nosotros</h1>
+        <p>Bienvenido a Apuestas XM, tu destino número uno para emocionantes apuestas deportivas en línea. <br>
+            En Apuestas XM, nos dedicamos a ofrecerte la mejor experiencia de apuestas en deportes, con una amplia gama
+            de eventos deportivos, mercados de apuestas y emocionantes oportunidades de ganar. <br>
+            En nuestra plataforma, encontrarás una extensa selección de deportes populares de todo el mundo, incluyendo
+            fútbol, baloncesto, tenis, carreras de caballos, y mucho más. Ya seas un fanático del fútbol europeo, un
+            seguidor del baloncesto de la NBA, o un apasionado de las carreras de caballos, tenemos algo para todos los
+            gustos. <br>
+            ¿Eres un entusiasta de las apuestas en vivo? ¡Estás en el lugar correcto! Con nuestra función de apuestas en
+            vivo, puedes sumergirte en la acción y realizar apuestas mientras los eventos deportivos están en curso.
+            <br>
+            Siente la emoción del juego en tiempo real y aprovecha las oportunidades para ganar mientras sigues tus
+            deportes favoritos. <br>
+            Además de nuestras apuestas deportivas, también ofrecemos una emocionante variedad de juegos de casino en
+            línea, que van desde las clásicas tragamonedas hasta el emocionante blackjack y la ruleta en vivo. <br>
+            Con gráficos de alta calidad, sonidos envolventes y emocionantes premios en juego, te garantizamos una
+            experiencia de casino en línea como ninguna otra. <br>
+            En Apuestas XM, la seguridad y la integridad de tus transacciones son nuestra máxima
+            prioridad. Utilizamos las últimas tecnologías de cifrado para garantizar que todas tus transacciones
+            financieras sean seguras y protegidas en todo momento. Puedes depositar y retirar fondos con total
+            confianza, sabiendo que tu información personal está protegida.
+
+            ¿Listo para unirte a la acción? ¡Regístrate hoy mismo en Apuestas XM y comienza a disfrutar de la emoción de
+            las apuestas deportivas en línea!
+        </p>
+    </section>
+    <section id="Registro">
+        <h1 style="color: azure;">Registro</h1>
+        <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltip01" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="validationTooltip01" value="" required>
+            </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltip02" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="validationTooltip02" value="" required>
+            </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltipUsername" class="form-label">Correo</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                    <input type="text" class="form-control" id="validationTooltipUsername"
+                        aria-describedby="validationTooltipUsernamePrepend" required>
+                </div>
+            </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltip03" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="validationTooltip03" required>
+            </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltip04" class="form-label">Departamento</label>
+                <select class="form-select" id="validationTooltip04" required>
+                    <option selected disabled value="">Elegir...</option>
+                    <option>Antioquia</option>
+                    <option>Atlantico</option>
+                    <option>Bolivar</option>
+                    <option>Magdalena</option>
+                </select>
+            </div>
+            <div class="col-md-4 position-relative">
+                <label for="validationTooltip05" class="form-label">Teléfono</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text" id="validationTooltipUsernamePrepend">#</span>
+                    <input type="text" class="form-control" id="validationTooltipUsername"
+                        aria-describedby="validationTooltipUsernamePrepend" required>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-outline-success" type="submit">Enviar</button>
+            </div>
+        </form>
+    </section><br>
+    <section>
+        <h1 id="Sesion" style="color: azure;">Iniciar Sesion</h1>
+        <form class="row g-3">
+            <div class="col-auto">
+                <label for="inputPassword2" class="visually-hidden">Usuario</label>
+                <input type="text" class="form-control" id="inputPassword2" placeholder="Usuario">
+            </div>
+            <div class="col-auto">
+                <label for="inputPassword2" class="visually-hidden">Clave</label>
+                <input type="password" class="form-control" id="inputPassword2" placeholder="Clave">
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-outline-success">Iniciar</button>
+            </div>
+        </form>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+</html>
